@@ -19,7 +19,7 @@ namespace EchoServer
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseUrls(new string[] { "http://127.0.0.1:5000" });
+                    webBuilder.UseUrls(new string[] { "http://0.0.0.0:5000" });
                     webBuilder.Configure(app =>
                     {
 
